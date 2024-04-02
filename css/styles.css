@@ -47,7 +47,6 @@ hr {
     margin-top:2.5vh;
     margin-bottom:2.5vh;
     border: 1px solid var(--violeta-oscuroB);
-    color: var(--violeta-oscuroD);
 }
 
 .navegador {
@@ -107,7 +106,7 @@ hr {
 
 .menu_buscar {
     padding: 1.5vh 10.3vh;
-    background-color: var(--amarillo-claro);
+    background-color: var(--amarillo-claroD);
     font-size: 1rem;
 }
 
@@ -339,14 +338,14 @@ h6 {
 
 .footer {
     margin-top:10vh;
-    height: 30vh;
+    height: 25vh;
     background-color: var(--azul-claroB);
 }
 
 .footer_titulo {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 4vh;
 }
 
 .redes {
@@ -360,10 +359,11 @@ h6 {
     padding-top: 2vh;
     text-align: center;
     padding-right: 4vh;
-    font-size: 1.1rem;
+    font-size: 0.9rem;
 }
 
 .derechos {
     text-align: center;
     padding-top: 2vh;
+    font-size: 0.8rem;
 }
