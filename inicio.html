@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/fuentes.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Fjalla+One&family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div id="Registrarse">
+            <a class="ubuntu-medium header_titulo">
+                DreamTravel.com
+                
+            </a>
+
+            <i class="fa-solid fa-person-swimming fa-2x"></i>
+
+            <a class="header_iniciar ubuntu-medium">
+                <i class="fa-solid fa-user"></i>
+                Iniciar Sesión
+            </a>
+
+            <a class="header_registrarse ubuntu-medium">
+                <i class="fa-solid fa-users"></i>
+                Registrarse
+            </a>
+
+            <a class="header_menu ubuntu-medium">
+                <i class="fa-solid fa-bars"></i>
+                Menú
+            </a>
+        </div>
+
+        <hr>
+
+        <div id="Navegador">
+            <a class="navegador1 ubuntu-medium">
+                Visitas guiadas
+            </a>
+
+            <a class="navegador ubuntu-medium">
+                Hoteles
+            </a>
+
+            <a class="navegador ubuntu-medium">
+                Vuelos
+            </a>
+
+            <a class="navegador ubuntu-medium">
+                Reseñas
+            </a>
+
+            <a class="navegador ubuntu-medium">
+                Descúbrenos más
+            </a>
+        </div>
+        
+
+    </header>
+    
+    <main>
+        <section id="menu_de_ofertas" class="background">
+            <div id="Menu">
+                <h3 class="menu ubuntu-bold blanco">
+                    Elige tu oferta
+                </h3>
+    
+                <form >
+                    <div >
+                        <select name="Destino"
+                            class="menu_destino ubuntu-medium">
+                            <option value="" selected>Seleccione el destino</option>
+                            <option value="Buenos Aires">Buenos Aires</option>
+                            <option value="Córdoba">Córdoba</option>
+                        </select>
+    
+                        <button class="menu_buscar ubuntu-medium">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            Buscar
+                        </button>
+                    </div>
+    
+                    <div>
+                        <input type="date" 
+                            value="2000-01-31"
+                            name="Llegada"
+                            class="menu_llegada ubuntu-medium"
+                            >
+    
+                        <input type="date" 
+                            value="2000-01-31"
+                            name="Salida"
+                            class="menu_salida ubuntu-medium"
+                            >
+    
+                        <select name="Huéspedes"
+                            class="menu_huespedes ubuntu-medium"
+                            >
+                            <option value="" selected>Huéspedes</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+    
+                </form>
+    
+            </div>
+        </section>
+        
+        <section id="hoteles_ejemplo">
+            <h2 class="section1 ubuntu-bold">
+                <span class="subrayado2">
+                    Nuestros mejores hoteles
+                </span>
+                
+            </h2>
+
+            <div class="hoteles">
+                <div class="flecha_izq">
+                    <i class="fa-solid fa-arrow-left fa-2x"></i>
+                </div>
+                
+                <img class="imagen_hotel2" 
+                    src="./img/Hotel2.jpg">
+
+                <img class="imagen_hotel1"
+                    src="./img/Hotel1.jpg">
+
+                <img class="imagen_hotel3"
+                    src="./img/Hotel3.jpg">
+
+                <div class="flecha_der">
+                    <i class="fa-solid fa-arrow-right fa-2x"></i>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section id="argentina">
+            <h2 class="ubuntu-bold section2">
+                <span class="subrayado2">
+                    Visítanos en toda la Argentina
+                </span>
+            </h2>
+
+            <div class="imagenes_s2">
+                <div id="Buenos Aires">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/Buenos Aires.jpg">
+                    <h5 class="ubuntu-bold">
+                        Buenos Aires
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        5.128 alojamientos
+                    </h6>
+                </div>
+    
+                <div class="s2_centrar" id="Mar del Plata">
+                    <img class="imagenes_s2_tamano" 
+                        src="./img/Mar del Plata.jpg">
+                    <h5 class="ubuntu-bold">
+                        Mar del Plata
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        1.664 alojamientos
+                    </h6>
+                </div>
+    
+                <div class="s2_centrar" id="Bariloche">
+                    <img class="imagenes_s2_tamano" 
+                        src="./img/Bariloche.avif">
+                    <h5 class="ubuntu-bold">
+                        San Carlos de Bariloche
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        998 alojamientos
+                    </h6>
+                </div>
+    
+                <div class="s2_centrar" id="Villa Carlos Paz">
+                    <img class="imagenes_s2_tamano" 
+                        src="./img/Carlos Paz.jpg">
+                    <h5 class="ubuntu-bold">
+                        Villa Carlos Paz
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        851 alojamientos
+                    </h6>
+                </div>
+
+    
+                <div class="s2_centrar" id="Mendoza">
+                    <img class="imagenes_s2_tamano" 
+                        src="./img/Mendoza.jpg">
+                    <h5 class="ubuntu-bold">
+                        Mendoza
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        949 alojamientos
+                    </h6>
+                </div>
+
+                <div class="centrar_sin" id="Iguazu">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/Iguazu.jpg">
+                    <h5 class="ubuntu-bold">
+                        Puerto Iguazú
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        949 alojamientos
+                    </h6>
+                </div>
+
+                <div class="s2_centrar2" id="Salta">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/Salta.jpg">
+                    <h5 class="ubuntu-bold">
+                        Salta
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        949 alojamientos
+                    </h6>
+                </div>
+
+                <div class="s2_centrar2" id="Tandil">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/Tandil.jpg">
+                    <h5 class="ubuntu-bold">
+                        Tandil
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        949 alojamientos
+                    </h6  class="ubuntu-light">
+                </div>
+
+                <div class="slogan subrayado fjalla-one-regular">
+                        DESCUBRE <br> EL MUNDO Y <br> 
+                </div>
+
+                <div class="centrar_sin" id="Gesell">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/Villa-Gesell.webp">
+                    <h5 class="ubuntu-bold">
+                        Villa Gesell
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        949 alojamientos
+                    </h6>
+                </div>
+
+                <div class="s2_centrar2" id="Pinamar">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/Pinamar.jpg">
+                    <h5 class="ubuntu-bold">
+                        Pinamar
+                    </h5>
+                    <h6 class="ubuntu-medium">
+                        949 alojamientos
+                    </h6>
+                </div>
+
+                <div class="slogan2 subrayado fjalla-one-regular">
+                        VIVE TU <br> PROPIA AVENTURA
+                </div>
+
+                <!--
+                    <div class="s2_centrar2" id="Cordoba">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/cordoba.jpg">
+                    <h5>
+                        Córdoba
+                    </h5>
+                    <h6>
+                        949 alojamientos
+                    </h6>
+                </div>
+
+                <div class="s2_centrar2" id="Tigre">
+                    <img class="imagenes_s2_tamano"
+                        src="./img/tigre.jpg">
+                    <h5>
+                        Tigre
+                    </h5>
+                    <h6>
+                        949 alojamientos
+                    </h6>
+                </div>
+                -->
+
+                
+
+            </div>
+            
+
+            <div>
+
+            </div>
+
+        </section>
+
+        <section>
+            <h2 class="section3 ubuntu-bold">
+                <span class="subrayado2">
+                    Últimas reseñas
+                </span>
+                
+            </h2>
+
+
+            <div class="reseña1">
+                <div class="contenedor">
+                    <img class="img_reseña1"
+                        src="./img/reseñaaa.webp">
+                </div>
+    
+                <p class="ubuntu-light usuario1">
+                    Clarisa27 dejó una nota (mar 2024)
+                </p>
+
+                <p class="parrafo ubuntu-regular">
+                    
+                    "Mi estancia en el Hotel Serenity Oasis fue excepcional. Desde el momento en que entré por la puerta, 
+                    me sentí bienvenido por el personal atento y servicial. Las habitaciones eran amplias, limpias y cómodas, 
+                    con vistas impresionantes al mar. Las instalaciones del hotel, como la piscina y el spa, eran de primera 
+                    clase y realmente disfruté relajándome allí después de un día de exploración."
+                </p> 
+
+                <div class="circulos1 ubuntu-medium">
+                    Calificación :      
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                </div>
+
+
+            </div>
+
+            <div class="reseña2">
+                <div class="contenedor2">
+                    <img class="img_reseña2"
+                        src="./img/reseñaaaaaa2.jpeg">
+                </div>
+    
+                <p class="ubuntu-light usuario2">
+                    Francjs dejó una nota (feb 2024)
+                </p>
+
+                <p class="parrafo2 ubuntu-regular">
+                    
+                    "Viví una experiencia espectacular en el Hotel Royal Gardens. Desde el lujo de las habitaciones 
+                    hasta la atención del personal y las impresionantes instalaciones, cada detalle fue simplemente 
+                    asombroso. La comida gourmet en los restaurantes completó una estancia inolvidable. ¡Altamente 
+                    recomendado!"
+                </p> 
+
+                <div class="circulos2 ubuntu-medium">
+                    Calificación :      
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-solid fa-circle" style="color: #FFD43B;"></i>
+                    <i class="fa-regular fa-circle" style="color: #FFD43B;"></i>
+                </div>
+                
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer_titulo">
+            <a class="ubuntu-regular blanco">
+                DreamTravel.com
+            </a>
+            <i class="fa-solid fa-person-swimming fa-2x blanco"></i>
+
+            <i class="fa-brands fa-facebook blanco fa-lg redes"></i>
+            <i class="fa-brands fa-instagram blanco fa-lg"></i>
+            <i class="fa-brands fa-x-twitter blanco fa-lg"></i>
+            <i class="fa-brands fa-youtube blanco fa-lg"></i>
+            <i class="fa-brands fa-linkedin blanco fa-lg"></i>
+            <i class="fa-brands fa-tiktok blanco fa-lg"></i>
+    
+            
+
+        </div>
+
+
+        <div class="footer_texto ubuntu-regular blanco">
+            <a class="footer_texto">
+                Términos y Condiciones
+            </a>
+            <a class="footer_texto">
+                Política de privacidad
+            </a>
+            <a class="footer_texto">
+                Preguntas frecuentes
+            </a>
+            <a class="footer_texto">
+                Atención al cliente
+            </a>
+            <a>
+                Quiénes somos
+            </a>
+            
+        </div>
+
+        <h6 class="derechos ubuntu-regular blanco">
+            Copyright © 2024-2024 DreamTravel.com™. Todos los derechos reservados.
+
+        </h6>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/56b4b21bed.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
