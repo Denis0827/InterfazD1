@@ -17,30 +17,29 @@
 
 .header_titulo {
     font-size: 1.5rem;
-    margin-left: 7vh;
+    margin-left: 5.5vw;
 }
 
 .header_iniciar {
     display: inline-block;
-    margin-left: 91vh;
+    margin-left: 41vw;
     background-color: var(--amarillo-claroD);
     padding: 1.5vh 2vh;
     border-radius: 5px;
 }
 
 .header_registrarse {
-    margin-left: 3vh;
+    margin-left: 1.5vw;
     background-color: var(--amarillo-claroD);
     padding: 1.5vh 2vh;
     border-radius: 5px;
 }
 
 .header_menu {
-    margin-left: 3vh;
+    margin-left: 1.5vw;
     background-color: var(--amarillo-claroD);
     padding: 1.5vh 2vh;
     border-radius: 5px;
-    margin-right: 7vh;
 }
 
 hr {
@@ -50,12 +49,12 @@ hr {
 }
 
 .navegador {
-    padding-right: 5vh;
+    padding-right: 2.5vw;
 }
 
 .navegador1 {
-    margin-left: 7vh;
-    padding-right: 5vh;
+    margin-left: 5.5vw;
+    padding-right: 2.5vw;
 }
 
 
@@ -76,36 +75,36 @@ hr {
 .menu {
     font-size: 1.75rem;
     margin-bottom: 1.5vh;
-    margin-left: 31vh;
+    margin-left: 16vw;
     text-shadow: 1.5px 1.5px 3px black;
 }
 
 .menu_destino {
     display: inline-block;
-    padding: 1.5vh 39vh;
+    padding: 1.5vh 19.85vw;
     margin-bottom: 1.5vh;
-    margin-left: 31vh;
+    margin-left: 16vw;
     font-size: 1rem;
 }
 
 .menu_llegada {
-    padding: 1.5vh 13.33vh;
-    margin-left: 31vh;
+    padding: 1.5vh 6.8vw;
+    margin-left: 16vw;
     font-size: 1rem;
 }
 
 .menu_salida {
-    padding: 1.5vh 13.33vh;
+    padding: 1.5vh 6.8vw;
     font-size: 1rem;
 }
 
 .menu_huespedes {
-    padding: 1.8vh 13.33vh;
+    padding: 1.75vh 6.8vw;
     font-size: 1rem;
 }
 
 .menu_buscar {
-    padding: 1.5vh 10.3vh;
+    padding: 1.5vh 5.3vw;
     background-color: var(--amarillo-claroD);
     font-size: 1rem;
 }
@@ -113,14 +112,14 @@ hr {
 
 .section1 {
     margin-top: 9vh;
-    margin-left: 7vh;
+    margin-left: 5.5vw;
     font-size: 2rem;
     color: var(--violeta-oscuroD);
 }
 
 .flecha_izq {
-    margin-left:13vh;
-    margin-top:52vh;
+    margin-left:10vw;
+    margin-top:50vh;
     position:absolute;
     background-color: var(--amarillo-claro);
     padding:1.5vh;
@@ -128,8 +127,8 @@ hr {
 }
 
 .flecha_der {
-    margin-left:172vh;
-    margin-top:52vh;
+    margin-left:85vw;
+    margin-top:50vh;
     position:absolute;
     background-color: var(--amarillo-claro);
     padding:1.5vh;
@@ -138,18 +137,18 @@ hr {
 
 .imagen_hotel1 {
     margin-top: 9vh;
-    height: 90vh;
-    width: 98vh;
-    margin-left: 47vh;
+    height: 80vh;
+    width: 45vw;
+    margin-left: 26.5vw;
     position: absolute;
     z-index: 1;
     
 }
 
 .imagen_hotel2 {
-    height: 65vh;
-    width: 80vh;
-    margin-left: 25vh;
+    height: 58vh;
+    width: 40vw;
+    margin-left: 16.5vw;
     margin-bottom: 8vh;
     margin-top: 22vh;
     position: absolute;
@@ -157,19 +156,18 @@ hr {
 }
 
 .imagen_hotel3 {
-    height: 65vh;
-    width: 80vh;
-    margin-right: 20vh;
+    height: 58vh;
+    width: 40vw;
     margin-bottom: 8vh;
-    margin-left: 86vh;
+    margin-left: 42vw;
     margin-top: 22vh;
     position: absolute;
     z-index: 0;
 }
 
 .section2 {
-    margin-top: 108vh;
-    margin-left: 7vh;
+    margin-top: 100vh;
+    margin-left: 5.5vw;
     font-size: 2rem;
     color: var(--violeta-oscuroD);
 }
@@ -177,34 +175,27 @@ hr {
 .imagenes_s2 {
     display:flex;
     flex-flow:row wrap;
-    margin-left:7vh;
+    margin-left:5.5vw;
     margin-top:8vh;
     font-size:1.1rem;
     margin-bottom:5vh;
 }
 
 .imagenes_s2_tamano {
-    height: 29vh;
-    width: 32.3vh;
+    height: 27vh;
+    width: 15.5vw;
     border-radius: 14px;
 }
 
 .s2_centrar {
-    margin-left: 4.5vh;
+    margin-left: 2.5vw;
 }
 
 .s2_centrar2 {
-    margin-left: 4.5vh;
+    margin-left: 2.5vw;
     margin-top: 7vh;
 }
 
-.centrar_der {
-    margin-right: 50vh;
-}
-
-.centrar_izq {
-    margin-left: 36.5vh;
-}
 
 .centrar_sin {
     margin-top: 7vh;
@@ -215,17 +206,17 @@ hr {
 }
 
 .slogan {
-    font-size: 6rem;
+    font-size: 5.8rem;
     margin-top: 12vh;
-    margin-left: 14vh;
+    margin-left: 7vw;
     text-align: right;
     color: var(--violeta-oscuroC);
 }
 
 .slogan2 {
-    font-size: 6rem;
-    margin-top: 2vh;
-    margin-left: 23vh;
+    font-size: 5.8rem;
+    margin-top: 1vh;
+    margin-left: 11.3vw;
     text-align: right;
     color: var(--violeta-oscuroC)
 }
@@ -250,9 +241,18 @@ h6 {
     font-size:0.85rem;
 }
 
+.texto1 {
+    font-size: 1.2rem;
+    margin-top: 1.5vh;
+}
+
+.texto2 {
+    font-size: 0.8rem;
+}
+
 .section3 {
     margin-top: 9vh;
-    margin-left: 7vh;
+    margin-left: 5.5vw;
     margin-bottom: 7vh;
     font-size: 2rem;
     color: var(--violeta-oscuroD);
@@ -264,7 +264,7 @@ h6 {
 
 .parrafo {
     text-align: justify;
-    margin-right: 8vh;
+    margin-right: 4vw;
     margin-top: 2vh;
     font-size: 1rem;
 }
@@ -276,24 +276,24 @@ h6 {
 .reseña1 {
     background-color: var(--violeta-claro);
     height: 16vh;
-    margin-left: 7vh;
+    margin-left: 5.5vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    margin-right: 7vh;
+    margin-right: 5.5vw;
 }
 
 .img_reseña1 {
     height: 10vh;
-    width: 10vh;
+    width: 5vw;
     padding: 0.7vh;
     background-color: white;
-    margin-bottom: 4vh;
+    margin-bottom: 7vh;
 }
 
 .contenedor {
     float: left; /* Hace que la imagen flote a la izquierda */
-    margin-right: 5vh;
-    margin-left: 7vh;
+    margin-right: 2.5vw;
+    margin-left: 3.5vw;
 }
 
 
@@ -303,7 +303,7 @@ h6 {
 
 .parrafo2 {
     text-align: justify;
-    margin-right: 8vh;
+    margin-right: 4vw;
     margin-top: 2vh;
     font-size: 1rem;
 }
@@ -315,25 +315,25 @@ h6 {
 .reseña2 {
     background-color: var(--violeta-claro);
     height: 16vh;
-    margin-left: 7vh;
+    margin-left: 5.5vw;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    margin-right: 7vh;
+    margin-right: 5.5vw;
     margin-top: 5vh;
 }
 
 .img_reseña2 {
     height: 10vh;
-    width: 10vh;
+    width: 5vw;
     padding: 0.7vh;
     background-color: white;
-    margin-bottom: 4vh;
+    margin-bottom: 7vh;
 }
 
 .contenedor2 {
     float: left; /* Hace que la imagen flote a la izquierda */
-    margin-right: 5vh;
-    margin-left: 7vh;
+    margin-right: 2.5vw;
+    margin-left: 3.5vw;
 }
 
 .footer {
