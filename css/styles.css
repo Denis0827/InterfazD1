@@ -127,7 +127,7 @@ hr {
 }
 
 .flecha_der {
-    margin-left:85vw;
+    margin-left:85.5vw;
     margin-top:50vh;
     position:absolute;
     background-color: var(--amarillo-claro);
@@ -138,7 +138,7 @@ hr {
 .imagen_hotel1 {
     margin-top: 9vh;
     height: 80vh;
-    width: 45vw;
+    width: 45.5vw;
     margin-left: 26.5vw;
     position: absolute;
     z-index: 1;
@@ -157,7 +157,7 @@ hr {
 
 .imagen_hotel3 {
     height: 58vh;
-    width: 40vw;
+    width: 40.5vw;
     margin-bottom: 8vh;
     margin-left: 42vw;
     margin-top: 22vh;
@@ -183,7 +183,7 @@ hr {
 
 .imagenes_s2_tamano {
     height: 27vh;
-    width: 15.5vw;
+    width: 15.8vw;
     border-radius: 14px;
 }
 
@@ -208,7 +208,7 @@ hr {
 .slogan {
     font-size: 5.8rem;
     margin-top: 12vh;
-    margin-left: 7vw;
+    margin-left: 8vw;
     text-align: right;
     color: var(--violeta-oscuroC);
 }
@@ -216,7 +216,7 @@ hr {
 .slogan2 {
     font-size: 5.8rem;
     margin-top: 1vh;
-    margin-left: 11.3vw;
+    margin-left: 12.5vw;
     text-align: right;
     color: var(--violeta-oscuroC)
 }
